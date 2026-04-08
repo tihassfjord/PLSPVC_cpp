@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/FindOpenMP.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/FindPackageMessage.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/FindZLIB.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Platform/Windows.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake
+C:/Users/tihas/miniconda3/Library/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake
+E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt
+E:/PLS_Cpp/pls_pvc_cpp/build/CMakeFiles/3.27.4/CMakeCXXCompiler.cmake
+E:/PLS_Cpp/pls_pvc_cpp/build/CMakeFiles/3.27.4/CMakeRCCompiler.cmake
+E:/PLS_Cpp/pls_pvc_cpp/build/CMakeFiles/3.27.4/CMakeSystem.cmake

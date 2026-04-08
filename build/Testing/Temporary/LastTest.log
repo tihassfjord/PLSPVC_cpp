@@ -1,0 +1,35 @@
+Start testing: Apr 07 13:17 UTC
+----------------------------------------------------------
+1/2 Testing: pls_pvc_smoke_test
+1/2 Test: pls_pvc_smoke_test
+Command: "/mnt/data/work/pls_pvc_cpp/build/pls_pvc_smoke_test"
+Directory: /mnt/data/work/pls_pvc_cpp/build
+"pls_pvc_smoke_test" start time: Apr 07 13:17 UTC
+Output:
+----------------------------------------------------------
+Smoke test passed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"pls_pvc_smoke_test" end time: Apr 07 13:17 UTC
+"pls_pvc_smoke_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: pls_pvc_smoke_test_4d
+2/2 Test: pls_pvc_smoke_test_4d
+Command: "/mnt/data/work/pls_pvc_cpp/build/pls_pvc_smoke_test_4d"
+Directory: /mnt/data/work/pls_pvc_cpp/build
+"pls_pvc_smoke_test_4d" start time: Apr 07 13:17 UTC
+Output:
+----------------------------------------------------------
+4D smoke test passed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"pls_pvc_smoke_test_4d" end time: Apr 07 13:17 UTC
+"pls_pvc_smoke_test_4d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 07 13:17 UTC

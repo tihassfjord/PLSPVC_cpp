@@ -1,0 +1,10 @@
+^E:\PLS_CPP\PLS_PVC_CPP\BUILD\CMAKEFILES\60E38878617DFDF9EB49E3C2C76E45E1\GENERATE.STAMP.RULE
+setlocal
+C:\Users\tihas\miniconda3\Library\bin\cmake.exe -SE:/PLS_Cpp/pls_pvc_cpp -BE:/PLS_Cpp/pls_pvc_cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/PLS_Cpp/pls_pvc_cpp/build/pls_pvc_cpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

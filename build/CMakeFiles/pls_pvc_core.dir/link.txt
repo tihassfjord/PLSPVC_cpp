@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpls_pvc_core.a CMakeFiles/pls_pvc_core.dir/src/NiftiIO.cpp.o CMakeFiles/pls_pvc_core.dir/src/PSF.cpp.o CMakeFiles/pls_pvc_core.dir/src/Operators.cpp.o CMakeFiles/pls_pvc_core.dir/src/Guidance.cpp.o CMakeFiles/pls_pvc_core.dir/src/SplitBregmanPVC.cpp.o
+/usr/bin/ranlib libpls_pvc_core.a

@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: E:/PLS_Cpp/pls_pvc_cpp
+# Build directory: E:/PLS_Cpp/pls_pvc_cpp/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(pls_pvc_smoke_test "E:/PLS_Cpp/pls_pvc_cpp/build/Debug/pls_pvc_smoke_test.exe")
+  set_tests_properties(pls_pvc_smoke_test PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;65;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(pls_pvc_smoke_test "E:/PLS_Cpp/pls_pvc_cpp/build/Release/pls_pvc_smoke_test.exe")
+  set_tests_properties(pls_pvc_smoke_test PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;65;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(pls_pvc_smoke_test "E:/PLS_Cpp/pls_pvc_cpp/build/MinSizeRel/pls_pvc_smoke_test.exe")
+  set_tests_properties(pls_pvc_smoke_test PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;65;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(pls_pvc_smoke_test "E:/PLS_Cpp/pls_pvc_cpp/build/RelWithDebInfo/pls_pvc_smoke_test.exe")
+  set_tests_properties(pls_pvc_smoke_test PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;65;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+else()
+  add_test(pls_pvc_smoke_test NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(pls_pvc_smoke_test_4d "E:/PLS_Cpp/pls_pvc_cpp/build/Debug/pls_pvc_smoke_test_4d.exe")
+  set_tests_properties(pls_pvc_smoke_test_4d PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;66;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(pls_pvc_smoke_test_4d "E:/PLS_Cpp/pls_pvc_cpp/build/Release/pls_pvc_smoke_test_4d.exe")
+  set_tests_properties(pls_pvc_smoke_test_4d PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;66;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(pls_pvc_smoke_test_4d "E:/PLS_Cpp/pls_pvc_cpp/build/MinSizeRel/pls_pvc_smoke_test_4d.exe")
+  set_tests_properties(pls_pvc_smoke_test_4d PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;66;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(pls_pvc_smoke_test_4d "E:/PLS_Cpp/pls_pvc_cpp/build/RelWithDebInfo/pls_pvc_smoke_test_4d.exe")
+  set_tests_properties(pls_pvc_smoke_test_4d PROPERTIES  ENVIRONMENT "OMP_NUM_THREADS=1" _BACKTRACE_TRIPLES "E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;66;add_test;E:/PLS_Cpp/pls_pvc_cpp/CMakeLists.txt;0;")
+else()
+  add_test(pls_pvc_smoke_test_4d NOT_AVAILABLE)
+endif()

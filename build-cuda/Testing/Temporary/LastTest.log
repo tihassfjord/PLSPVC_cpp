@@ -1,0 +1,53 @@
+Start testing: Apr 08 10:59 Vest-Europa (sommertid)
+----------------------------------------------------------
+1/3 Testing: pls_pvc_smoke_test
+1/3 Test: pls_pvc_smoke_test
+Command: "E:/PLS_Cpp/pls_pvc_cpp/build-cuda/Release/pls_pvc_smoke_test.exe"
+Directory: E:/PLS_Cpp/pls_pvc_cpp/build-cuda
+"pls_pvc_smoke_test" start time: Apr 08 10:59 Vest-Europa (sommertid)
+Output:
+----------------------------------------------------------
+Smoke test passed.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"pls_pvc_smoke_test" end time: Apr 08 10:59 Vest-Europa (sommertid)
+"pls_pvc_smoke_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: pls_pvc_smoke_test_4d
+2/3 Test: pls_pvc_smoke_test_4d
+Command: "E:/PLS_Cpp/pls_pvc_cpp/build-cuda/Release/pls_pvc_smoke_test_4d.exe"
+Directory: E:/PLS_Cpp/pls_pvc_cpp/build-cuda
+"pls_pvc_smoke_test_4d" start time: Apr 08 10:59 Vest-Europa (sommertid)
+Output:
+----------------------------------------------------------
+4D smoke test passed.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"pls_pvc_smoke_test_4d" end time: Apr 08 10:59 Vest-Europa (sommertid)
+"pls_pvc_smoke_test_4d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: pls_pvc_cuda_smoke_test
+3/3 Test: pls_pvc_cuda_smoke_test
+Command: "E:/PLS_Cpp/pls_pvc_cpp/build-cuda/Release/pls_pvc_cuda_smoke_test.exe"
+Directory: E:/PLS_Cpp/pls_pvc_cpp/build-cuda
+"pls_pvc_cuda_smoke_test" start time: Apr 08 10:59 Vest-Europa (sommertid)
+Output:
+----------------------------------------------------------
+Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+GPU vs CPU max difference = 2.08167e-17 (OK)
+CUDA smoke test passed.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"pls_pvc_cuda_smoke_test" end time: Apr 08 10:59 Vest-Europa (sommertid)
+"pls_pvc_cuda_smoke_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 08 10:59 Vest-Europa (sommertid)

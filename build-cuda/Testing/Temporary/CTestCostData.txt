@@ -1,0 +1,4 @@
+pls_pvc_smoke_test 1 0.0380931
+pls_pvc_smoke_test_4d 1 0.0592636
+pls_pvc_cuda_smoke_test 1 0.159303
+---

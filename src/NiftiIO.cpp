@@ -247,13 +247,25 @@ Nifti1Header buildHeaderForOutput(const NiftiImage &reference_header,
     hdr.dim[5] = 1;
     hdr.dim[6] = 1;
     hdr.dim[7] = 1;
+
+    // Restore pixdim from NiftiImage fields in case original_header was not populated
+    for (std::size_t i = 0; i < 8 && i < reference_header.pixdim.size(); ++i) {
+        hdr.pixdim[i] = static_cast<float>(reference_header.pixdim[i]);
+    }
     hdr.datatype = 64;  // Float64 / double
     hdr.bitpix = 64;
-    
+
+    // Ensure critical fields are valid even if original_header was not read from a file
+    hdr.sizeof_hdr = 348;
+    if (hdr.vox_offset < 352.0f) {
+        hdr.vox_offset = 352.0f;
+    }
+    std::memcpy(hdr.magic, "n+1\0", 4);
+
     // Ensure scaling parameters are flat since data is saved directly as double
     hdr.scl_slope = 1.0f;
     hdr.scl_inter = 0.0f;
-    
+
     std::snprintf(hdr.descrip, sizeof(hdr.descrip), "%s", description);
     return hdr;
 }

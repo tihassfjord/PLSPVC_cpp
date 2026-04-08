@@ -1,0 +1,87 @@
+3 channel Terms of Service accepted
+Retrieving notices: - \ | done
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.11.1
+    latest version: 26.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\tihas\miniconda3
+
+  added / updated specs:
+    - cmake
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2026.2.25  |       h4c7d964_0         144 KB  conda-forge
+    certifi-2026.2.25          |     pyhd8ed1ab_0         148 KB  conda-forge
+    conda-26.1.1               |  py313hfa70ccb_0         1.2 MB  conda-forge
+    openssl-3.6.2              |       hf411b9b_0         9.0 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        10.5 MB
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-202~ --> conda-forge/noarch::ca-certificates-2026.2.25-h4c7d964_0 
+  certifi            pkgs/main/win-64::certifi-2025.11.12-~ --> conda-forge/noarch::certifi-2026.2.25-pyhd8ed1ab_0 
+  conda              pkgs/main::conda-25.11.1-py313haa9553~ --> conda-forge::conda-26.1.1-py313hfa70ccb_0 
+  openssl                                  3.6.0-h725018a_0 --> 3.6.2-hf411b9b_0 
+
+
+
+Downloading and Extracting Packages: ...working...openssl-3.6.2        | 9.0 MB    |            |   0% 
+conda-26.1.1         | 1.2 MB    |            |   0% [A
+
+certifi-2026.2.25    | 148 KB    |            |   0% [A[A
+
+
+ca-certificates-2026 | 144 KB    |            |   0% [A[A[Aopenssl-3.6.2        | 9.0 MB    |            |   0% 
+
+certifi-2026.2.25    | 148 KB    | #          |  11% [A[A
+
+
+ca-certificates-2026 | 144 KB    | #1         |  11% [A[A[A
+conda-26.1.1         | 1.2 MB    | 1          |   1% [A
+
+
+ca-certificates-2026 | 144 KB    | ########## | 100% [A[A[A
+
+certifi-2026.2.25    | 148 KB    | ########## | 100% [A[A
+
+
+ca-certificates-2026 | 144 KB    | ########## | 100% [A[A[Aopenssl-3.6.2        | 9.0 MB    | 3          |   3% 
+
+certifi-2026.2.25    | 148 KB    | ########## | 100% [A[A
+
+certifi-2026.2.25    | 148 KB    | ########## | 100% [A[A
+conda-26.1.1         | 1.2 MB    | ##8        |  28% [Aopenssl-3.6.2        | 9.0 MB    | 9          |   9% 
+conda-26.1.1         | 1.2 MB    | ######2    |  63% [Aopenssl-3.6.2        | 9.0 MB    | #3         |  13% 
+conda-26.1.1         | 1.2 MB    | ########7  |  87% [A
+conda-26.1.1         | 1.2 MB    | ########## | 100% [Aopenssl-3.6.2        | 9.0 MB    | #9         |  20% openssl-3.6.2        | 9.0 MB    | ###        |  30% openssl-3.6.2        | 9.0 MB    | ###7       |  37% openssl-3.6.2        | 9.0 MB    | ####5      |  45% openssl-3.6.2        | 9.0 MB    | #####7     |  58% 
+conda-26.1.1         | 1.2 MB    | ########## | 100% [Aopenssl-3.6.2        | 9.0 MB    | ######7    |  68% openssl-3.6.2        | 9.0 MB    | ########2  |  82% openssl-3.6.2        | 9.0 MB    | #########4 |  95% openssl-3.6.2        | 9.0 MB    | ########## | 100% openssl-3.6.2        | 9.0 MB    | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A done
+Preparing transaction: / done
+Verifying transaction: \ | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done

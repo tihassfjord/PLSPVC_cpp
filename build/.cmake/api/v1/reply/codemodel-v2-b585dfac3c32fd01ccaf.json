@@ -1,0 +1,372 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pls_pvc_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-59d7afec744cecf92fe5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-8f1a357b95eb2443637c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc-Debug-b78109b560bf40d2313a.json",
+					"name" : "pls_pvc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_core-Debug-1fe5aa684ef2856c9eb6.json",
+					"name" : "pls_pvc_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test-Debug-fbc44f61678931472a19.json",
+					"name" : "pls_pvc_smoke_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test_4d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test_4d-Debug-6b683b0540b9432083a4.json",
+					"name" : "pls_pvc_smoke_test_4d",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pls_pvc_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-59d7afec744cecf92fe5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-8f1a357b95eb2443637c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc-Release-69c4df7e3286258cfadb.json",
+					"name" : "pls_pvc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_core-Release-96673ed92ebe56867fe9.json",
+					"name" : "pls_pvc_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test-Release-ba16f1d6e4d3e3283c7a.json",
+					"name" : "pls_pvc_smoke_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test_4d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test_4d-Release-a022eb9f95083a42b85e.json",
+					"name" : "pls_pvc_smoke_test_4d",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pls_pvc_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-59d7afec744cecf92fe5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-8f1a357b95eb2443637c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc-MinSizeRel-8d5d9223802d78a0d307.json",
+					"name" : "pls_pvc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_core-MinSizeRel-84bda9198cc1797f2fbc.json",
+					"name" : "pls_pvc_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test-MinSizeRel-1c79315040a21d4c42b0.json",
+					"name" : "pls_pvc_smoke_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test_4d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test_4d-MinSizeRel-61fd84180c8c8667002e.json",
+					"name" : "pls_pvc_smoke_test_4d",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pls_pvc_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-59d7afec744cecf92fe5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-8f1a357b95eb2443637c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc-RelWithDebInfo-77ca94900bcda9930de1.json",
+					"name" : "pls_pvc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_core-RelWithDebInfo-15fbaae0517715e062cf.json",
+					"name" : "pls_pvc_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test-RelWithDebInfo-7c05c2a6eee621bb039b.json",
+					"name" : "pls_pvc_smoke_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pls_pvc_smoke_test_4d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pls_pvc_smoke_test_4d-RelWithDebInfo-c0928947376965370b3b.json",
+					"name" : "pls_pvc_smoke_test_4d",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/PLS_Cpp/pls_pvc_cpp/build",
+		"source" : "E:/PLS_Cpp/pls_pvc_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

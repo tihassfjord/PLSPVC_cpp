@@ -10,6 +10,9 @@
 #include "pvc/NiftiIO.hpp"
 #include "pvc/PSF.hpp"
 #include "pvc/SplitBregmanPVC.hpp"
+#if PVC_USE_CUDA
+#include "pvc/CudaSplitBregmanPVC.hpp"
+#endif
 
 namespace {
 
@@ -40,6 +43,7 @@ Optional arguments:
   --epsilon-scale VALUE      MATLAB-normalized residual threshold scaling (default: 0.1)
   --smooth-sigma VALUE       Gaussian smoothing sigma in voxels for PET-based fallback guidance (default: 1.0)
   --edge-weight VALUE        Weight on edge magnitude for pet-edge guidance mode (default: 0.35)
+  --gpu                      Use CUDA GPU acceleration (requires CUDA build)
   --quiet                    Suppress per-iteration logging
   --help                     Show this message
 
@@ -56,7 +60,7 @@ ArgMap parseArgs(int argc, char **argv) {
     ArgMap args;
     for (int i = 1; i < argc; ++i) {
         const std::string key = argv[i];
-        if (key == "--help" || key == "-h" || key == "--quiet") {
+        if (key == "--help" || key == "-h" || key == "--quiet" || key == "--gpu") {
             args[key] = "1";
             continue;
         }
@@ -229,6 +233,13 @@ int main(int argc, char **argv) {
             shared_guidance = resolveStaticGuidanceFromMode(pet_nifti, first_pet_frame, mr, guidance_options);
         }
 
+        const bool use_gpu = args.count("--gpu") > 0;
+#if !PVC_USE_CUDA
+        if (use_gpu) {
+            throw std::runtime_error("--gpu requested but this binary was built without CUDA support. Rebuild with -DUSE_CUDA=ON.");
+        }
+#endif
+
         std::vector<pvc::Volume3D> corrected_frames;
         corrected_frames.reserve(nframes);
         pvc::SolverSummary last_summary{};
@@ -248,7 +259,15 @@ int main(int argc, char **argv) {
                 std::cout << "\n=== Solving frame " << (t + 1) << "/" << nframes << " ===\n";
             }
 
-            const pvc::SolverResult result = pvc::runSplitBregmanPVC(pet_frame, guidance_frame, psf, solver_options);
+            pvc::SolverResult result;
+#if PVC_USE_CUDA
+            if (use_gpu) {
+                result = pvc::runSplitBregmanPVC_CUDA(pet_frame, guidance_frame, psf, solver_options);
+            } else
+#endif
+            {
+                result = pvc::runSplitBregmanPVC(pet_frame, guidance_frame, psf, solver_options);
+            }
             corrected_frames.push_back(result.corrected);
             last_summary = result.summary;
         }

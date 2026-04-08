@@ -1,8 +1,10 @@
 #pragma once
 
 #include <algorithm>
+#include <array>
 #include <cmath>
 #include <cstddef>
+#include <cstdint>
 #include <limits>
 #include <numeric>
 #include <stdexcept>
@@ -127,6 +129,7 @@ struct NiftiImage {
     std::vector<double> data;  // Always converted to double on read
     int datatype = 0;
     bool little_endian = true;
+    std::array<std::uint8_t, 348> original_header{};
 
     [[nodiscard]] bool is3D() const {
         return dims.size() >= 4 && dims[0] >= 3 && dims[1] > 0 && dims[2] > 0 && dims[3] > 0;
